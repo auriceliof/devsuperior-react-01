@@ -1,0 +1,111 @@
+.div-home {
+  padding: 20px 10px;
+}
+
+.div-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #00285f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.div-image-car {
+  top: 90px;
+}
+
+.div-image-car svg {
+  width: 60%;
+  height: auto;
+}
+
+.div-content-car {
+  align-items: center;
+  color: #fff;
+  margin: 35px 0;
+}
+
+.div-content-car h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.div-content-car p {
+  font-size: 14px;
+}
+
+.div-main-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 123px;
+  background-color: #ededed;
+  border-radius: 10px;
+  margin-top: 21px;
+}
+
+.div-content-button p {
+  color: #585858;
+  font-size: 18px;
+}
+
+@media (min-width: 576px) {
+  .div-main-button {
+    flex-direction: inherit;
+  }
+
+  .div-content-car h4 {
+    font-size: 36px;
+  }
+
+  .div-content-car p {
+    font-size: 18px;
+  }
+
+  .div-content-button p {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .div-main-button {
+    justify-content: start;
+  }
+
+  .div-button {
+    margin-left: 85px;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1280px) {
+  .div-home {
+    padding: 30px 150px;
+  }
+
+  .div-card {
+    min-height: 365px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .div-content-car {
+    width: 420px;
+    text-align: left;
+  }
+
+  .div-image-car {
+    width: 35%;
+  }
+
+  .div-image-car svg {
+    width: 100%;
+    height: auto;
+  }
+}

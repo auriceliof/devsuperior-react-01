@@ -1,0 +1,53 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 86px;
+  background: #ededed;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-toolbar {
+  justify-content: center;
+}
+
+.btn-icon-search {
+  width: 77px;
+  height: 40px;
+  background-color: #00285f;
+  border-radius: 0 10px 10px 0;
+}
+
+.btn-icon-search h6 {
+  color: #fff;
+  font-size: 14px;
+}
+
+.input-group > .form-control {
+  width: 199px;
+  height: 40px;
+}
+
+@media (min-width: 576px) {
+  .input-group > .form-control {
+    width: 300px;
+  }
+
+  .btn-icon-search {
+    width: 174px;
+  }
+}
+
+@media (min-width: 768px) {
+  .input-group > .form-control {
+    width: 450px;
+  }
+}
+
+@media (min-width: 992px) {
+  .input-group > .form-control {
+    width: 584px;
+  }
+}
